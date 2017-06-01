@@ -1,0 +1,90 @@
+<section class="audio">
+            <audio src="img/Pianoboy - The truth that you leave.mp3" loop="loop" preload="auto"></audio>
+            <img id="imgs" src="img/mius2.png" alt="" />
+</section>
+<div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide one">
+                     <div class="ani page" swiper-animate-effect="zoomIn" swiper-animate-duration="0s" swiper-animate-delay="0s">
+                        <div class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s">
+                            <img class="bg1" src="img/bg1.jpg" alt="" />
+                        </div>
+                         <div class="ani data" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s">
+                            <h3>2017-05-14</h3>
+                            <p>母爱就像阳光，感觉到的想到的都是热热的！</p>
+                         </div>
+                         <div class="ani title" swiper-animate-effect="rotateIn" swiper-animate-duration="0.5s" swiper-animate-delay="4s">
+                            <img class="hart" src="img/hart.gif">
+                         </div><div class="ani title" swiper-animate-effect="flipInX" swiper-animate-duration="1.5s" swiper-animate-delay="3s">
+                            <img class="mum" src="img/mum.jpg" />
+                         </div>
+                         
+                     </div>
+                    
+                </div>
+                <div class="swiper-slide two">
+                    <div class="ani tw_wei" swiper-animate-effect="" swiper-animate-duration="0.5s" swiper-animate-delay="0s">
+                                <img class="weimu w1 onwei1" src="img/wei.png">
+                                <img class="weimu2 w1 onwei1" src="img/wei.png" />
+                            <div class="ani tw_feihua" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+                                <img class="taohua" src="img/taohua.png">
+                                <img class="feihua" src="img/hua2.gif">
+                            </div>
+                    </div>
+                    <div class="ani muqin" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="2.5s">
+                                <img class="muqinimg" src="img/muzi.png">
+                                <img class="gaung" src="img/gaung.png">
+                    </div>
+                    <div class="ani muqin_text" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="3s" swiper-animate-delay="4s">
+                                <p>她，赐予我生命，</p>
+                                <p>她，爱我胜过爱她自己。</p>
+                    </div>
+                </div>
+                <div class="swiper-slide shree">
+                    <div class="ani tw_wei" swiper-animate-effect="fadeIn" swiper-animate-duration="s" swiper-animate-delay="">
+                            <img class="weimu w2 onwei1" src="img/wei.png">
+                            <img class="weimu2 w2 onwei1" src="img/wei.png" />
+                            <div class="ani jing" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+                                <img class="jing1" src="img/po (1).png">
+                            </div>
+                            <div class="ani jing3" swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="2s">
+                                <img class="jing31 animation " src="img/po (3).png">
+                            </div>
+                            <div class="ani huijia" swiper-animate-effect="slideInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s">
+                                <img class="huij" src="img/huijia.png">
+                            </div>
+                            <div class="ani huijia" swiper-animate-effect="slideInRight" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s">
+                                <img class="huij2" src="img/huija2.png">
+                            </div>
+                            <div class="ani lu" swiper-animate-effect="bounceInUp" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s">
+                                <img class="lu1" src="img/lu.png">
+                            </div>
+                            <div class="ani lu_text" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="2s" swiper-animate-delay="3.5s">
+                                <p>小时候，一心希望长大</p>
+                                <p>现在，我希望</p>
+                                <p>时间它能停滞不前</p>
+                                <p>我不想，也不愿</p>
+                                <p>她，容颜变老</p>
+                            </div>
+                            
+                    </div>                  
+                </div>
+                <div class="swiper-slide four"> <div class="ani page" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                        <img class="bg1" src="img/4ac98231177edc7ce34cca5ab5dc7460.png" alt="" />
+                         <div class="ani page2" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s">
+                            <img src="img/hua1.png">
+                         </div>                     
+                         <div class="ani text1" swiper-animate-effect="fadeIn" swiper-animate-duration="3.5s" swiper-animate-delay="2.5s">
+                            <h4>Dear mum:</h4>
+                            <p>没有阳光就没有日子的温暖；没有水源就没有生命；没有父母就没有自己。这些都是浅显的道理，没有人会不懂，但是，我们常常缺少一种感恩的思想和心理。 而今天，我在这里要对您表示最真诚的决心：今后您再劳累的时候，我要把您扶到床边休息片刻，给您端茶到、捶腿，与您聊一天中的精华，与您说一天中的云霞，让您有了彩虹般轻松的心情，这才是我应该做的吧！今后我再想要任性耍小脾气的时候，我要想向您为我付出的一切，想想这么多年,我最感激的还是你们!我成长的每一步,都伴随着你们艰辛的付出。你们所做的一切都有是为了我，没有你们的付出，不会有今天的我，我现在不能做些什么，我只能真诚地对你们说：“谢谢你们！</p>
+                            <p>From:女儿</p>
+                         </div>
+                     </div>
+                </div>
+                <div class="swiper-slide five">
+                    <p class="adds"></p>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>

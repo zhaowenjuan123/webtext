@@ -1,0 +1,349 @@
+require("./com/swiper.min.css");
+require("./com/animate.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-size: 0.16rem;
+}
+.swiper-container {
+  height: 100%;
+}
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.audio {
+  width: 0.45rem;
+  height: 0.45rem;
+  position: fixed;
+  top: 0.2rem;
+  right: 0.2rem;
+  z-index: 1000;
+  animation: fn 2s linear infinite;
+  -webkit-animation: fn 2s linear infinite;
+}
+@keyframes fn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes fn {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.audio img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: "晴空";
+  src: url("http://localhost/font/HYQingKongTiJ.ttf");
+}
+.one {
+  background: #BED7C4;
+}
+.two {
+  background: #BED7C4;
+}
+.shree {
+  background: #BED7C4;
+  position: relative;
+}
+.four {
+  background: #BED7C4;
+}
+.five {
+  background: #BED7C4;
+}
+.page {
+  position: relative;
+  top: 50%;
+  margin-top: -2.5rem;
+  left: 50%;
+  margin-left: -1.5rem;
+}
+.page .bg1 {
+  width: 3rem;
+  box-shadow: 0 0 10px #7CBC9D;
+  box-sizing: border-box;
+  border: 1px solid #BED7C4;
+  height: 5rem;
+}
+.page2 {
+  width: 3rem;
+  position: absolute;
+  right: 1.55rem;
+  top: 3.8rem;
+  z-index: 2;
+}
+.page2 img {
+  width: 100%;
+}
+.text1 {
+  font-family: "晴空";
+  width: 2.4rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -1.8rem;
+  margin-left: 0.3rem;
+  z-index: 1;
+}
+.text1 p {
+  font-size: 0.12rem !important;
+  line-height: 1.5;
+  color: #333;
+}
+.text1 p:nth-of-type(2) {
+  text-align: right;
+  margin-top: 0.2rem;
+}
+.title {
+  width: 3rem;
+  position: absolute;
+  top: 2.9rem;
+}
+.title .mum {
+  width: 80%;
+  display: block;
+  position: relative;
+  left: 10%;
+}
+.title .hart {
+  width: 15%;
+  position: relative;
+  left: 1.6rem;
+  top: -0.2rem;
+  display: block;
+}
+.data {
+  width: 3rem;
+  position: absolute;
+  top: 1.6rem;
+  text-align: center;
+}
+.data h3 {
+  color: cadetblue;
+}
+.data p {
+  padding: 1% 15%;
+  color: gray;
+  line-height: 1.8;
+}
+.tw_wei {
+  height: 90%;
+}
+.weimu {
+  width: 3.5rem;
+  height: 100%;
+  position: absolute;
+  left: -1.2rem;
+  z-index: 5;
+}
+.weimu2 {
+  transform: rotateY(180deg);
+  width: 3.5rem;
+  height: 100%;
+  position: absolute;
+  right: -1.2rem;
+  z-index: 5;
+}
+@-webkit-keyframes fn2 {
+  from {
+    opacity: 1;
+    width: 3.5rem;
+  }
+  to {
+    width: 1.5rem;
+    opacity: 0!important;
+  }
+}
+@keyframes fn2 {
+  from {
+    opacity: 1;
+    width: 3.5rem;
+  }
+  to {
+    opacity: 0!important;
+    width: 1.5rem;
+  }
+}
+.onwei1 {
+  animation: fn2 2s ease-in 0.5s, 1;
+  opacity: 0;
+  -webkit-filter: brightness(200%);
+}
+.tw_feihua {
+  position: relative;
+  width: 80%;
+  z-index: 4;
+}
+.tw_feihua .feihua {
+  width: 131%;
+  opacity: 0.3;
+  position: relative;
+  left: -0.5rem;
+  top: -2.5rem;
+}
+.tw_feihua .taohua {
+  width: 60%;
+  position: relative;
+  top: -0.2rem;
+  transform: rotateY(180deg);
+  left: -0.2rem;
+}
+.muqin {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.muqin .muqinimg {
+  width: 100%;
+  position: absolute;
+  z-index: 6;
+  bottom: 0;
+  opacity: 0.7;
+}
+.muqin .gaung {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.muqin_text {
+  height: 75%;
+  width: 70%;
+  margin-left: 15%;
+  position: absolute;
+  bottom: 0;
+  font-family: "晴空";
+  text-align: center;
+}
+.muqin_text p {
+  font-weight: 300;
+  padding: 0.1rem;
+  text-shadow: 2px 2px 3px #5F9EA0;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.huijia {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: 221;
+}
+.huijia .huij {
+  width: 55%;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+}
+.huijia .huij2 {
+  width: 40%;
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0;
+}
+.jing {
+  position: absolute;
+  top: 0;
+}
+.jing1 {
+  width: 50%;
+}
+.jing3 {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 50%;
+}
+.jing3 .jing31 {
+  width: 30%;
+  -webkit-animation: swinging 8s ease-in-out 0s infinite;
+  -moz-animation: swinging 8s ease-in-out 0s infinite;
+  animation: swinging 8s ease-in-out 0s infinite;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+@-webkit-keyframes swinging {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  5% {
+    -webkit-transform: rotate(10deg);
+  }
+  10% {
+    -webkit-transform: rotate(-9deg);
+  }
+  15% {
+    -webkit-transform: rotate(8deg);
+  }
+  20% {
+    -webkit-transform: rotate(-7deg);
+  }
+  25% {
+    -webkit-transform: rotate(6deg);
+  }
+  30% {
+    -webkit-transform: rotate(-5deg);
+  }
+  35% {
+    -webkit-transform: rotate(4deg);
+  }
+  40% {
+    -webkit-transform: rotate(-3deg);
+  }
+  45% {
+    -webkit-transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0);
+  }
+  /* Come to rest at 50%. The rest is just stillness */
+  100% {
+    -webkit-transform: rotate(0);
+  }
+}
+.lu {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.lu .lu1 {
+  width: 102%;
+  position: absolute;
+  bottom: -1.3rem;
+  right: -1rem;
+  text-align: right;
+  z-index: -1;
+  opacity: 0.4;
+}
+.lu_text {
+  position: absolute;
+  top: 18%;
+  right: 7%;
+  font-family: "晴空";
+}
+.lu_text p {
+  padding: 0.06rem 0;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 2px 2px 3px #5F9EA0;
+}
